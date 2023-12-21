@@ -4,4 +4,6 @@
 
 clean.json
 test.json
-merge_data_output.json
+merge_data_output_R.json
+merge_data_output_remote.json
+merge_data_output_local.json

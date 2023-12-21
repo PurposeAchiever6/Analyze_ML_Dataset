@@ -20,12 +20,7 @@ for (i in 1:length(lines)) {
 }
 
 # Combine the list of data frames into a single data frame
-data <- do.call(rbind, data_list)
 merge_data_df <- data.frame(merge_data = unlist(data_list))
 
-# Print the imported data
-# print(data)
-
 # Save the merge_data property as a JSON file
-write_json(merge_data_df, 'merge_data_output.json')
-
+write_json(merge_data_df, 'merge_data_output_R.json')
